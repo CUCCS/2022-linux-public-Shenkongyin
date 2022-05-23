@@ -86,7 +86,7 @@ server {
 chmod -R 777 /opt/verynginx/verynginx/configs
 
 6.访问截图：
-![图片](图片5.1.png)
+![图片](./image/图片5.1.png)
 
 7.安装配置nginx
 sudo apt install nginx
@@ -145,7 +145,7 @@ sudo vim wp-config-sample
 mv wp-config-sample wp-config
 
 11.访问截图：
-![图片](图片5.2.jpg)
+![图片](./image/图片5.2.jpg)
 
 12.安装DVWA
 # 下载
@@ -217,23 +217,23 @@ sudo nginx -t
 systemctl restart nginx.service
 
 16.访问截图：
-![图片](图片5.3.jpg)
+![图片](./image/图片5.3.jpg)
 
 17.使用VeryNginx反向代理Wordpress,DVWA 截图：
-![图片](图片5.4.jpg)
-![图片](图片5.5.jpg)
+![图片](./image/图片5.4.jpg)
+![图片](./image/图片5.5.jpg)
 
 18.安全加固实现截图：
-![图片](图片5.6.jpg)
+![图片](./image/图片5.6.jpg)
 
 19.在dvwa里面把安全等级改成low截图：
-![图片](图片5.7.jpg)
+![图片](./image/图片5.7.jpg)
 
 20.其他来源的IP访问均向访客展示自定义的友好错误提示信息页面-3
-![图片](图片5.8.jpg)
+![图片](./image/图片5.8.jpg)
 
 21.通过定制VeryNginx的访问控制策略规则实现截图：
-![图片](图片5.9.jpg)
+![图片](./image/图片5.9.jpg)
 
 
 六.遇到的问题：
